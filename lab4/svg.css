@@ -1,0 +1,7 @@
+.small{
+	height: 32px;
+}
+
+tr, td, table{
+	border: solid .5px gray;
+}
