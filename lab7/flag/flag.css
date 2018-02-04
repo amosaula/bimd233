@@ -1,0 +1,22 @@
+#stars{
+	color: white;
+}
+#starcell{
+	width: 230px;
+	background-color: blue;
+	border: none;
+}
+
+.white_stripe{
+	background-color: white;
+}
+
+.red_stripe{
+	background-color: red;
+}
+
+.white_stripe, .red_stripe{
+	width: 480px;
+	height: 33px;
+
+}

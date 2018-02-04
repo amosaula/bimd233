@@ -1,0 +1,63 @@
+body{
+	margin-top: 30%;
+}
+td{
+	width: 50px;
+	height: 50px;
+}
+
+#rgb1{
+	background-color: rgba(0,0,255,.9);
+}
+#rgb2{
+	background-color: rgba(0,0,255,.8);
+}
+#rgb3{
+	background-color: rgba(0,0,255,.7);
+}
+#rgb4{
+	background-color: rgba(0,0,255,.6);
+}
+#rgb5{
+	background-color: rgba(0,0,255,.5);
+}
+#rgb6{
+	background-color: rgba(0,0,255,.4);
+}
+#rgb7{
+	background-color: rgba(0,0,255,.3);
+}
+#rgb8{
+	background-color: rgba(0,0,255,.2);
+}
+#rgb9{
+	background-color: rgba(0,0,255,.1);
+}
+
+#hsl1{
+	background-color: hsla(240, 100%, 50%, 0.9);
+}
+#hsl2{
+	background-color: hsla(240, 100%, 50%, 0.8);
+}
+#hsl3{
+	background-color: hsla(240, 100%, 50%, 0.7);
+}
+#hsl4{
+	background-color: hsla(240, 100%, 50%, 0.6);
+}
+#hsl5{
+	background-color: hsla(240, 100%, 50%, 0.5);
+}
+#hsl6{
+	background-color: hsla(240, 100%, 50%, 0.4);
+}
+#hsl7{
+	background-color: hsla(240, 100%, 50%, 0.3);
+}
+#hsl8{
+	background-color: hsla(240, 100%, 50%, 0.2);
+}
+#hsl9{
+	background-color: hsla(240, 100%, 50%, 0.1);
+}
