@@ -7,41 +7,31 @@
 	<head>
 	    <link href="styles.css" rel="stylesheet">
 	    <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	</head>
 
 	<body>
 		<!-- nav bar -->
-		<nav class="navbar navbar-inverse navbar-fixed-top">    
-			<div class="container">      
-				<div class="navbar-header">        
-					<button type="button" class= "navbar-toggle collapsed" data-toggle="collapse" data-target= "#navbar" aria-expanded="false" aria-controls="navbar">            
-						<span class="sr-only">Toggle navigation</span>            
-						<span class="icon-bar"></span>            
-						<span class="icon-bar"></span>            
-						<span class="icon-bar"></span>          
-					</button>        
-					<a class="navbar-brand" href="#">nav bar</a>      
-				</div>      
-				<div id="navbar" class= "navbar-collapse collapse">        
-					<form class="navbar-form navbar-right">          
-						<div class="form-group">            
-							<input type="text" placeholder="Username" class="form-control">          
-						</div>          
-						<div class="form-group">            
-							<input type="password" placeholder="Password" class="form-control">          
-						</div>          
-						<button type="submit" class="btn btn-success">Sign in</button>        
-					</form>      
-				</div>      <!--/.navbar-collapse -->    
-			</div>  
-		</nav>
+			<ul class="nav navbar-nav container-fluid">
+			  <li class="nav-item">
+			    <a class="nav-link active" href="#">home</a>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link" href="#">link 1</a>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link" href="#">link 2</a>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link" href="#">link 3</a>
+			  </li>
+			</ul>
 
 
 		<!-- jumbotron -->
@@ -54,29 +44,69 @@
 		</div>
 
 		<!-- begin content -->
-		<div class="container-fluid" id = "content">
-		  <div class="row">
-		    <div class="col-md-2">
-		      <h2>col-md-2</h2>
-		    </div>
-		    <div class="col-md-8">
-		      <h2> Image Gallery (col-md-8) </h2>
-		      <table id = "table" align = "center">
-				  <tr>
-				    <td style = "border-right-style: dotted; "></td>
-				    <td></td>
-				  </tr>
-				  <tr>
-				    <td style = "border-right-style: dotted; border-top-style: dotted;"></td>
-				    <td style = "border-top-style: dotted;"></td>
-				  </tr>
-				</table>
-		    </div>
-		    <div class="col-md-2">
-		      <h2> col-md-2 </h2>
-		    </div>
+		<div class="container-fluid">
+		    <div class="row">
+			    <div class="col-md-3">
+			      <h2>CONTAINER A</h2>
+		     	 	<img url = "img/alt1.png" alt = "ALT 1">
+		      		<table>
+			      		<tr class = "header">
+				      		<td class = "col-sm-3">col1</td>
+				      		<td class = "col-sm-3">col2</td>
+				      		<td class = "col-sm-3">col3</td>
+			      		</tr>
+			      		<tr class = "data">
+				      		<td>data1</td>
+				      		<td>data2</td>
+				      		<td>data3</td>
+		      			</tr>
+		      		</table>
+		      		<hr>
+		      			<a href = "3"><img src = "alt1.pdf" alt = "IMG A"></a>
 
-		</div>
+			    </div>
+			   <div class="col-md-3">
+			      <h2>CONTAINER A</h2>
+		     	 	<img url = "img/alt1.png" alt = "ALT 1">
+		      		<table>
+			      		<tr class = "header">
+				      		<td class = "col-sm-3">col1</td>
+				      		<td class = "col-sm-3">col2</td>
+				      		<td class = "col-sm-3">col3</td>
+			      		</tr>
+			      		<tr class = "data">
+				      		<td>data1</td>
+				      		<td>data2</td>
+				      		<td>data3</td>
+		      			</tr>
+		      		</table>
+		      		<hr>
+		      			<a href = "3"><img src = "alt1.pdf" alt = "IMG A"></a>
+
+			    </div>
+			    <div class="col-md-3">
+			      <h2>CONTAINER A</h2>
+		     	 	<img url = "img/alt1.png" alt = "ALT 1">
+		      		<table>
+			      		<tr class = "header">
+				      		<td class = "col-sm-3">col1</td>
+				      		<td class = "col-sm-3">col2</td>
+				      		<td class = "col-sm-3">col3</td>
+			      		</tr>
+			      		<tr class = "data">
+				      		<td>data1</td>
+				      		<td>data2</td>
+				      		<td>data3</td>
+		      			</tr>
+		      		</table>
+		      		<hr>
+		      			<a href = "3"><img src = "alt1.pdf" alt = "IMG A"></a>
+
+			    </div>
+			</div>
+	
+
+	
 
 
 
