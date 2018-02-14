@@ -5,3 +5,14 @@ body{
 table{
 	margin-top: 15%;
 }
+
+h1, h2, video{
+	text-align: center;
+}
+
+video, audio{
+	display: block;
+	width: 440px;
+	padding-top: 20px;
+	margin: auto;
+}
