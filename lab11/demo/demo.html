@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<!-- jQuery library -->
+	     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+		<!-- Latest compiled JavaScript -->
+	    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	      <!-- Latest compiled and minified JavaScript -->
+	     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	     <!---<script src="demo.js"></script>-->
+	</head>
+
+	<body>
+		<h1 id = "username"></h1>
+		<h1 id = "password"></h1>
+
+		<script type = "text/JavaScript">
+			var userName = prompt("Your username is?");
+			var pwd;
+
+			if(userName != null){
+				pwd = prompt("Enter password.");
+				if(pwd != null){
+					console.log("Your username is: " + userName);
+					console.log("Your password is: " + pwd);
+					document.getElementById("username").textContent = "Your username is: " + userName;
+					document.getElementById("password").textContent = "Your password is: " + pwd;
+				}
+				else{
+					console.log("Improper input. Refresh to retry.");
+				}
+			}
+		</script>
+	</body>
+
+</html>
