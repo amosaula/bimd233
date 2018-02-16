@@ -1,4 +1,4 @@
-
+$(document).ready(function(){
 	var userName = prompt("Your username is?");
 	var pwd;
 
@@ -7,16 +7,11 @@
 		if(pwd != null){
 			console.log("Your username is: " + userName);
 			console.log("Your password is: " + pwd);
-			document.getElementById("username").textContent = "Hello!";
+			document.getElementById("username").textContent = "Your username is: " + userName;
+			document.getElementById("password").textContent = "Your password is: " + pwd;
 		}
 		else{
 			console.log("Improper input. Refresh to retry.");
-		}
-	}
-
-
-/** var elUser = document.getElementById("user");
-		elUser.textContent = 'Your username is: ' + userName;
-
-		var elPassword = document.getElementById("password");
-		elPassword.textContent = 'Your password is: ' + pwd; **/
+				}
+			}
+});
