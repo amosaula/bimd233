@@ -47,6 +47,10 @@ $(document).ready(function(){
 		p2Score = 0;
 		p1Display.textContent = 0;
 		p2Display.textContent = 0;
+		p1.className = "btn btn-primary";
+		p1.textContent = "Player 1";
+		p2.className = "btn btn-primary";
+		p2.textContent = "Player 2";
 		p1Display.classList.remove("winner");
 		p2Display.classList.remove("winner");
 		gameOver = false;
