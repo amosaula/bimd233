@@ -1,0 +1,25 @@
+body{
+	display: block;
+	text-align: center;
+}
+.container {
+	margin: 20px;
+	background-color: white;
+	border: 5px solid black;
+	width: 500px;
+}
+
+.panel {
+	margin: 20px auto;
+	width: 400px;
+}
+
+.winner {
+	color: lightgreen;
+}
+
+h1 span {
+	font-family: 'Press Start 2P', sans-serif;
+	font-size: 60px;
+	color: red;
+}
