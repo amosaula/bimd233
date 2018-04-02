@@ -1,3 +1,23 @@
+body{
+	font-family: sans-serif;
+}
+
+a{
+	text-decoration: none;
+	color: orange;
+}
+
+img{
+	height: 300px;
+}
+
+h1{
+	color: purple;
+	display: block;
+	text-align: center;
+	font-family: sans-serif;
+}
+
 br{
 	line-height: 100px;
 }

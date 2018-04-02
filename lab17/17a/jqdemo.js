@@ -5,7 +5,10 @@ $(document).ready(function () {
     $('.panel').css('padding', '10px');
 
     // set all div's padding to 3px
+    $('.div').css({
+        padding : '3px';
 
+    });
     // set all divs in the panel to background gray
 
     // set all divs of class cat to green

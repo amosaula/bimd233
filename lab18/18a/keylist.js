@@ -15,13 +15,16 @@ $(document).ready(function() {
   });
 
   // reset button click
-  $("button").on("click", function(e) {});
+  $("button").on("click", function(e) {
+    
+    
+  });
 
   // keypress
   $("input").on("keypress", function(e) {
     var code = e.which;
-    // var char = String.fromCharCode(code);
-    // console.log('key:' + code + '\tstate:' + state);
+    var char = String.fromCharCode(code);
+    console.log('key:' + code + '\tstate:' + state);
     switch (state) {
       // idle
       case "idle":
